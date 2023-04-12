@@ -343,9 +343,7 @@ p#citation{
   margin: 20px;
 }
 
-p{
-  font-size: 2rem
-}
+
 
 .products button{
   background-color: #fff;
@@ -466,8 +464,9 @@ p{
 .contact {
   /* background-color: #eb99cb; */
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+  
 }
 
 .contact>div {
@@ -476,8 +475,8 @@ p{
 
 .contact div:first-child {
   background-color: #acf07f;
-  /* grid-column: 1/1 span;
- grid-row: 1/ 1 span; */
+  grid-column: 1/2 span;
+ grid-row: 1/ 1 span;
 }
 
 /* .contact div:nth-child(2) {
