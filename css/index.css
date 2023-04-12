@@ -465,8 +465,7 @@ p#citation{
   /* background-color: #eb99cb; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  
+  gap: 10px; 
 }
 
 .contact>div {
@@ -521,18 +520,24 @@ footer {
 footer>* {
   /* display: flex; */
   /* flex-direction: column; */
-  background-color: #f2ac8b;
+  /* background-color: #f2ac8b; */
   text-align: center;
 
 
 }
 
 
-#pied1 ul {
+.pied1 ul {
   flex-direction: column;
 }
 
+a{
+ text-decoration: none;
+}
 
+a:link{
+  color: #fff;
+}
 
 
 
