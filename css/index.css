@@ -36,7 +36,7 @@ header {
 
 
 
-p a {
+header p a {
   font-size: 4rem;
   position: absolute;
   right: 10px;
@@ -270,7 +270,7 @@ section>*:hover .ambre {
   justify-content: space-evenly;
 }
 
-.down-content ul{
+.down-content ul {
   display: flex;
   align-items: center;
 }
@@ -337,7 +337,7 @@ section>*:hover .ambre {
 }
 
 
-p#citation{
+p#citation {
   /* background-color: #22ec1b; */
   font-style: italic;
   margin: 20px;
@@ -345,13 +345,13 @@ p#citation{
 
 
 
-.products button{
+.products button {
   background-color: #fff;
   color: #0a0a0a;
   border: 2px black solid;
 }
 
-.products button:hover{
+.products button:hover {
   background-color: #0a0a0a;
   color: #fff;
 }
@@ -465,7 +465,7 @@ p#citation{
   /* background-color: #eb99cb; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px; 
+  gap: 10px;
 }
 
 .contact>div {
@@ -475,7 +475,7 @@ p#citation{
 .contact div:first-child {
   background-color: #acf07f;
   grid-column: 1/2 span;
- grid-row: 1/ 1 span;
+  grid-row: 1/ 1 span;
 }
 
 /* .contact div:nth-child(2) {
@@ -500,7 +500,7 @@ p#citation{
 }
 
 
-.contact button{
+.contact button {
   background-color: #0a0a0a;
   margin: 30px auto auto 45%;
 }
@@ -520,28 +520,26 @@ footer {
 footer>* {
   /* display: flex; */
   /* flex-direction: column; */
-  /* background-color: #f2ac8b; */
   text-align: center;
-
-
 }
 
 
 .pied1 ul {
   flex-direction: column;
+
 }
 
-a{
- text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-a:link{
+a:link {
   color: #fff;
 }
 
-
-
-
+footer>* li {
+  font-size: 2rem;
+}
 
 
 
@@ -615,7 +613,7 @@ a:link{
     font-size: 1.8rem;
   }
 
-  p a {
+  header p a {
     display: none;
   }
 
@@ -669,7 +667,7 @@ a:link{
     position: absolute;
     left: 8rem;
   }
-  
+
 
   /* .women> *:not(:first-child){
     aspect-ratio: 1/1;
@@ -808,13 +806,11 @@ a:link{
     grid-row: 1/ 2 span;
   }
 
-  .texte{
+  .texte {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-
-
 
 
 
@@ -884,4 +880,15 @@ a:link{
   footer> :last-child {
     grid-column: 2/-2;
   }
+
+  /* .pied-droite{
+    display: flex;
+   background-color: #22ec1b;
+  }
+  .pied-droite>.pied1{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  } */
 }
