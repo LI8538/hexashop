@@ -466,14 +466,28 @@ p#citation {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+  margin: 10px;
+
 }
 
 .contact>div {
-  background-color: #acf07f;
+  /* background-color: #acf07f; */
+  margin: 5px;
 }
 
+.contact .info{
+  /* border: 5px red solid; */
+  display: flex;
+}
+
+.info{
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 .contact div:first-child {
-  background-color: #acf07f;
+  /* background-color: #7fa3f0; */
   grid-column: 1/2 span;
   grid-row: 1/ 1 span;
 }
@@ -482,17 +496,15 @@ p#citation {
   background-color: #acf07f;
   grid-column: 1/1 span;
   grid-row: 1/ 1 span;
-  }
+  }*/
   .contact div:nth-child(3) {
-    background-color: #acf07f;
-    grid-column: /1 span;
-    grid-row: 1/ 2 span;
-    } */
+    /* border: 1px red solid; */ 
+    } 
 
-.contact div:nth-child(4) {
-  background-color: #acf07f;
-  /* grid-column: 1/ 2 span;
-      grid-row: 3/ 1 span  ; */
+.contact div:not(:first-child) {
+  background-color: #f9a7b5;
+  text-align: center;
+  
 }
 
 .contact>*:not(:first-child) {
@@ -504,6 +516,18 @@ p#citation {
   background-color: #0a0a0a;
   margin: 30px auto auto 45%;
 }
+
+form{
+  /* background-color: #474444; */
+}
+
+input{
+  /* background-color: aqua; */
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+}
+
 
 
 /* footer */
@@ -844,29 +868,31 @@ footer>* li {
   }
 
   .contact>div {
-    background-color: #acf07f;
+    /* background-color: #acf07f; */
   }
 
   .contact div:first-child {
-    background-color: #acf07f;
+    /* background-color: #acf07f; */
     /* grid-column: 1/2 span;
  grid-row: 1/1 span; */
+ /* background-color: #f9a7b5; */
+
   }
 
   .contact div:nth-child(2) {
-    background-color: #acf07f;
+    /* background-color: #acf07f; */
     /* grid-column: 1/1 span;
   grid-row: 1/ 1 span; */
   }
 
   .contact div:nth-child(3) {
-    background-color: #acf07f;
+    /* background-color: #acf07f; */
     /* grid-column: 1/1 span;
     grid-row: 1/ 1 span; */
   }
 
   .contact div:nth-child(4) {
-    background-color: #acf07f;
+    /* background-color: #acf07f; */
     grid-column: 1/4 span;
     grid-row: 2/ 1 span;
   }
