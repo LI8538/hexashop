@@ -33,9 +33,6 @@ header {
   position: relative;
 }
 
-
-
-
 header p a {
   font-size: 4rem;
   position: absolute;
@@ -68,11 +65,6 @@ li {
   font-size: 12px;
 }
 
-
-
-
-
-
 /* main  */
 main {
   /* background-color: rgb(241, 240, 174); */
@@ -81,13 +73,6 @@ main {
   /* padding: 20px; */
   /* grid-auto-rows:50vh;  gros problème faut pas le mettre*/
 }
-
-
-
-
-
-
-
 
 .banner {
   display: grid;
@@ -102,11 +87,6 @@ main {
 }
 
 /* banner colonel 1 */
-.banner div:first-child {
-  /* background-color: rgb(255, 127, 127); */
-  /* grid-row: 1/  span;
-  grid-column: 1 / 1 span; */
-}
 
 /* .banner> *:not(:first-child){
     aspect-ratio: 1/1;
@@ -115,9 +95,6 @@ main {
 .banner>* {
   aspect-ratio: 1/1;
 }
-
-
-
 
 /* image bg */
 #bg1 {
@@ -155,6 +132,14 @@ button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.text-banner{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .ambre {
@@ -203,8 +188,7 @@ button:hover {
 
 
 section>* .ambre {
-  display: none;
-  background-color: #22ec1b;
+  display:none ;
   font-size: 3rem;
 }
 
@@ -239,7 +223,6 @@ section>*:hover .ambre {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-
 }
 
 #bg5 {
@@ -250,7 +233,7 @@ section>*:hover .ambre {
 }
 
 
-/* woman  */
+/* women  */
 .women {
   /* background-color: rgb(200, 144, 252); */
   display: grid;
@@ -274,14 +257,6 @@ section>*:hover .ambre {
   display: flex;
   align-items: center;
 }
-
-
-.women div:first-child {
-  /* background-color:  rgb(238, 197, 13);
- grid-column: 1/1 span;
- grid-row: 1/ 1 span; */
-}
-
 
 .women>*:not(:first-child) {
   aspect-ratio: 1/1;
