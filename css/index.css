@@ -1,3 +1,7 @@
+/* -------------------------
+          navigateur 
+---------------------------*/
+
 @import url("./reset.css");
 
 
@@ -11,8 +15,6 @@ figure img {
   min-height: auto;
 }
 
-
-
 /* font-size: 15vw; */
 /* h1{
 
@@ -21,8 +23,10 @@ figure img {
 
 
 
+/* -------------------------
+           header
+---------------------------*/
 
-/* header */
 header {
   background-color: #e0e0e0;
   color: #0a0a0a;
@@ -65,7 +69,13 @@ li {
   font-size: 12px;
 }
 
-/* main  */
+
+
+
+
+/* -------------------------
+           main
+---------------------------*/
 main {
   /* background-color: rgb(241, 240, 174); */
   display: grid;
@@ -86,7 +96,7 @@ main {
   /* grid-row: 1/ 2 span ; */
 }
 
-/* banner colonel 1 */
+/* ------banner colonel -------1 */
 
 /* .banner> *:not(:first-child){
     aspect-ratio: 1/1;
@@ -194,7 +204,7 @@ section>* .ambre {
 
 section>*:hover .ambre {
   display: block;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.8);
   width: 95%;
   height: 95%;
   position: absolute;
@@ -233,7 +243,7 @@ section>*:hover .ambre {
 }
 
 
-/* women  */
+/*--------- women ------------ */
 .women {
   /* background-color: rgb(200, 144, 252); */
   display: grid;
@@ -262,34 +272,7 @@ section>*:hover .ambre {
   aspect-ratio: 1/1;
 }
 
-
-
-/* image bg */
-#bg6 {
-  /* background-image: url(../images/women-01.jpg); */
-  /* background-repeat: no-repeat;
-  background-size: cover; */
-}
-
-/* #bg7 {
-  background-image: url(../images/women-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-/* #bg8 {
-  background-image: url(../images/women-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-
-
-
-
-
-
-/* main catégorie */
+/* --------main catégorie--------- */
 .products {
   /* background-color: #6972fc; */
   display: grid;
@@ -318,8 +301,6 @@ p#citation {
   margin: 20px;
 }
 
-
-
 .products button {
   background-color: #fff;
   color: #0a0a0a;
@@ -330,16 +311,6 @@ p#citation {
   background-color: #0a0a0a;
   color: #fff;
 }
-
-
-
-
-/* image bg */
-/* #bg9{
-  background-image: url(../images/women-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 
 #bg10 {
   background-color: rgb(233, 231, 231);
@@ -369,12 +340,7 @@ p#citation {
   align-items: center;
 }
 
-
-
-
-
-
-
+/*------ social ----------*/
 
 
 .social {
@@ -477,7 +443,7 @@ p#citation {
     } 
 
 .contact div:not(:first-child) {
-  background-color: #f9a7b5;
+  background-color: #cbf0f0e1;
   text-align: center;
   
 }
@@ -489,7 +455,9 @@ p#citation {
 
 .contact button {
   background-color: #0a0a0a;
-  margin: 30px auto auto 45%;
+  /* margin: 30px auto auto 45%; */
+  width: 100%;
+  height: 5rem;
 }
 
 form{
@@ -505,7 +473,10 @@ input{
 
 
 
-/* footer */
+
+/* -------------------------
+           footer 
+---------------------------*/
 footer {
   background-color: #333;
   color: #fff;
@@ -528,11 +499,8 @@ footer>* {
 
 }
 
-a {
+.pied1 li a {
   text-decoration: none;
-}
-
-a:link {
   color: #fff;
 }
 
@@ -561,11 +529,6 @@ footer>* li {
   padding: 20px;
   margin-bottom: 20px;
 } */
-
-
-
-
-
 
 
 /* 
@@ -717,12 +680,12 @@ footer>* li {
     gap: 10px;
   }
 
-  .contact>div {
+  /* .contact>div {
     background-color: #acf07f;
-  }
+  } */
 
   .contact div:first-child {
-    background-color: #acf07f;
+    /* background-color: #acf07f; */
     grid-column: 1/2 span;
     grid-row: 1/ 1 span;
   }
@@ -811,12 +774,6 @@ footer>* li {
     justify-content: center;
   }
 
-
-
-
-
-
-
   .social {
     display: grid;
     /* background-color: #72e663; */
@@ -842,29 +799,6 @@ footer>* li {
     gap: 10px;
   }
 
-  .contact>div {
-    /* background-color: #acf07f; */
-  }
-
-  .contact div:first-child {
-    /* background-color: #acf07f; */
-    /* grid-column: 1/2 span;
- grid-row: 1/1 span; */
- /* background-color: #f9a7b5; */
-
-  }
-
-  .contact div:nth-child(2) {
-    /* background-color: #acf07f; */
-    /* grid-column: 1/1 span;
-  grid-row: 1/ 1 span; */
-  }
-
-  .contact div:nth-child(3) {
-    /* background-color: #acf07f; */
-    /* grid-column: 1/1 span;
-    grid-row: 1/ 1 span; */
-  }
 
   .contact div:nth-child(4) {
     /* background-color: #acf07f; */
